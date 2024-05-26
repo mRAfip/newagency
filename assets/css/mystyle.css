@@ -1092,7 +1092,7 @@
 
 	.main-head{
 
-		font-size: 0.5rem;
+		font-size: 42px;
 	}
 
 
@@ -1548,7 +1548,7 @@
 	.hero_top{
 
 
-		padding: 15% 8% 4% 8%;
+		padding: 35% 8% 4% 8%;
 		width: 100%;
 		background-color: var(--tt-main-color);
 		gap: 5%;
@@ -1569,6 +1569,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+
 		
 		
 	}
@@ -1580,6 +1581,8 @@
 		border-radius: 20px;
 		color: var(--black-color);
 		width: 100%;
+		margin-top: -35px;
+		
 	}
 
 
@@ -1605,9 +1608,9 @@
 
 
 
-	.main-head{
+	  .main-head{
 
-		font-size: 0.5rem;
+		font-size: 30px;
 	}
 
 
@@ -1627,6 +1630,7 @@
 		align-self: center;
 		margin-bottom: 2%;
 		font-weight: 600;
+		visibility: hidden;
 	}
 
 	.major-service{
@@ -1645,9 +1649,9 @@
 	.major-service-items{
 
 		background-color: #F1F0E8;
-		border-radius: 30px;
+		border-radius: 10px;
 		border: solid 1px #d5d5d5;
-		padding: 4%;
+		padding: 5%;
 	}
 
 	.btn-call{
@@ -1659,6 +1663,11 @@
 		width: fit-content;
 	}
 
+
+	.stat-head{
+
+		font-size: 2rem;
+	}
 
 
 
@@ -1704,6 +1713,12 @@
 		padding: 8% 8%;
 		font-weight: 200 !important;
 		
+		
+	}
+
+	.test-content{
+
+		font-size: 2rem;
 	}
 
 	.logo-section-testi{
@@ -1720,7 +1735,7 @@
 
 	.testi-name-title{
 
-		margin: 0 !important;
+		margin: 10 !important;
 	}
 
 	.client-name-testi{
@@ -1731,9 +1746,9 @@
 
 	.client-details{
 
-		height: 70px;
+		height: auto;
 		display: flex;
-		align-items: center !important;
+		align-items: left !important;
 		flex-direction: column;
 		
 		
@@ -1745,6 +1760,7 @@
 
 		color: var(--primary-color);
 		text-decoration: underline;
+		margin-top: 30px;
 	}
 	
 	.client-img2{
@@ -1757,23 +1773,23 @@
 
 	.client-name-div{
 
-		height: 55px;
+		height: auto;
 		display: flex;
-		align-items: center;
-		padding-left: 20px;
+		align-items: left;
+		padding-left: 00px;
 
 	}
 	
 	.client-name{
 
-		line-height: 0 !important;
+		line-height: 1 !important;
 		margin-bottom: 6px !important;
 	}
 
 
 	.client-name{
 
-		text-align: center;
+		text-align: left;
 	}
 
 	.cta-1{
@@ -1989,7 +2005,7 @@
 	  .client-domain-video{
 
 		color: var(--primary-color);
-		margin-top: 15%;
+		margin-top: 5%;
 	  }
 
 	  .video-client-name{
