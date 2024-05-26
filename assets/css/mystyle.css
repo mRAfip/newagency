@@ -1581,7 +1581,7 @@
 		border-radius: 20px;
 		color: var(--black-color);
 		width: 100%;
-		margin-top: -35px;
+		margin-top: -45px;
 		
 	}
 
@@ -1610,7 +1610,8 @@
 
 	  .main-head{
 
-		font-size: 30px;
+		font-size: 25px;
+		margin-bottom: 25px !important;
 	}
 
 
@@ -1718,7 +1719,7 @@
 
 	.test-content{
 
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.logo-section-testi{
